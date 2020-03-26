@@ -6,19 +6,15 @@ import main_package.Exceptions.NotEnoughArgsException;
 import java.util.*;
 
 public class Context {
-    //private Scanner scanner;
     private Map<String, Double> defines;
     private Stack<String> nums;
     private Boolean isNum;
     private String[] splStr;
-    private Boolean isFile;
 
     public Context() {
-        //this.scanner = scanner;
         this.defines = new HashMap<>();
         this.nums = new Stack<>();
         this.isNum = true;
-        this.isFile = false;
     }
 
     public Map<String, Double> getDefines() {
@@ -80,14 +76,5 @@ public class Context {
         }
         return true;
     }
-
-    public void setFile() {
-        this.isNum = true;
-    }
-
-    public Boolean isFile() {
-        return this.isFile;
-    }
-
 }
 

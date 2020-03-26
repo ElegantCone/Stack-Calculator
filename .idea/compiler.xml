@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="labOOP2_Stack_Calc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="labOOP2_Stack_Calc" target="8" />
+      <module name="log" target="1.5" />
+      <module name="slf4j-api" target="1.5" />
+      <module name="slf4j-api (1)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="labOOP2_Stack_Calc" options="--add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED" />
+      <module name="labOOP2_Stack_Calc" options="" />
     </option>
   </component>
 </project>
